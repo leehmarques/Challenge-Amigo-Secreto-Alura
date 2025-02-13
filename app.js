@@ -51,3 +51,13 @@ function reiniciarJogo() {
     listaResultado.innerHTML = "";
 }
 
+// implementando a tecla enter para adicionar nomes
+document.getElementById("amigo").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Impede o comportamento padrão da tecla Enter
+        adicionarAmigo(); // Chama a função para adicionar o nome
+    }
+});
+
+
+
