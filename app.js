@@ -4,7 +4,7 @@ function adicionarAmigo() {
     let input = document.getElementById("amigo");
     let nome = input.value.trim();
 
-    if (nome != "" && nome.match(/^[a-zA-Z\s]+$/)) {
+    if (nome != "" && nome.match(/^[a-zA-ZÀ-ÿ\s]+$/)) {
         // adiciona ao array
         amigos.push(nome);
 
