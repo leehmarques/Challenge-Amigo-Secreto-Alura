@@ -2,6 +2,8 @@
 
 Este é um jogo simples de **Amigo Secreto**, onde você pode adicionar os nomes dos seus amigos e sorteá-los aleatoriamente para fazer a troca de presentes.
 
+<p> <strong>Link do site:</strong> https://leehmarques.github.io/Challenge-Amigo-Secreto-Alura/</p>
+
 <p align="center" size="120px">
 <img loading="lazy" src="assets/amigo-secreto.png" width="300" height="200"/>
 </p>
